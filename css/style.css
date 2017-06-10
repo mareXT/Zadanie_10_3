@@ -1,0 +1,33 @@
+.container {
+	margin: 0 auto;
+}
+#carousel {
+	width: 400px;
+	height: 300px;
+	border: 1px solid black;
+	overflow: hidden;
+}
+#carousel ul {
+	display: block;
+	list-style: none;
+	width: 2000px;
+}
+#carousel ul li {
+	display: inline-block;
+	width: 2000px;
+	float: right;
+}
+#carousel ul li img {
+	width: 400px;
+	background-size: cover;
+}
+
+#directions {
+	text-align: center;
+}
+
+#left-button, #right-button {
+	display: inline-block;
+	cursor: pointer;
+	margin: 10px;
+}
